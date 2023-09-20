@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../allfile.css" />
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+</head>
+
+<body>
+
+  <!-- Header topbar Start-->
+
+  <div class="topbar-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="topbar-text">
+            <div class="phone text-center">
+              <i class="fa-solid fa-phone-volume"></i>
+              <small> 123 566 789</small>
+            </div>
+
+            <div class="email text-center">
+              <i class="fa-solid fa-envelope"></i>
+              <small>info@gmail.com</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header topbar End-->
+
+
+  <!-- Navbar Start -->
+
+  <div class="navbar-wrapper ">
+
+    <header class="header-wrapper wrapper bimage shadow-bar">
+      <img width="350px" src="../Images/top-bar-logo.png" alt="" />
+
+      <div class="search-bar">
+        <input class="search" type="search" placeholder="search" />
+        <a class="add-cart" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="wish-list" href=""><i class="fa-solid fa-heart"></i></a>
+        <a class="btn login-btn" href="">Login</a>
+        <a class="btn signup-btn" href="">SignUp</a>
+      </div>
+    </header>
+
+    <div class="main_dropdown_container">
+      <div class="dropdown_logo_bar_li" onclick="toggle_bar()" id="toggle_bar">
+        <!-- <img style="margin-left: 30px;" src="../Images/bar-3.png" class="dropdown_logo_bar bar" alt=""> -->
+        <i class="fa-solid fa-bars dropdown_logo_bar bar"></i>
+      </div>
+
+      <nav class="navbar_container toggle">
+        <div class="main_navbar">
+          <ul class="main_navbar_ul">
+            <li class="navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Home</a>
+            </li>
+            <li class="navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Sarees</a>
+            </li>
+            <li class="navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">SalwarKamizes</a>
+            </li>
+            <li class="navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Jewelries</a>
+            </li>
+
+            <li class="navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Accessories</a>
+            </li>
+            <li class="mobile-cart navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Add to Cart</a>
+            </li>
+            <li class="mobile-wishlist navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Wish List</a>
+            </li>
+            <li class="mobile-login navbar_level_1_li">
+              <a href="" class="navbar_level_1_link">Login</a>
+            </li>
+            <li class="mobile-signup navbar_level_1_li mb-3">
+              <a href="" class="navbar_level_1_link">Signup</a>
+            </li>
+
+            <div class="mobile-search">
+              <input class="search" type="search" placeholder="search" />
+              <!-- <a class="btn search-btn" href="">Search</a> -->
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Navbar End -->
+
+
+  <!-- Sarees Start -->
+
+  <div class="all-box-wrapper">
+    <div class="box-1">
+      <img src="../Images/top-banner-saree.png" alt="" />
+
+      <div class="banner-text1">
+        <h1>Sarees</h1>
+        <a class="shop-btn" href="">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sarees End -->
+
+
+  <!-- Salwar Start -->
+  <div class="box-2">
+    <img src="../Images/salwar-kameez.png" alt="" />
+
+    <div class="banner-text2">
+      <h1>Salwar Kamizees</h1>
+      <a class="shop-btn" href="">Shop Now</a>
+    </div>
+  </div>
+
+  <!-- Salwar End -->
+
+
+  <!-- Jewelries Start -->
+
+  <div class="box-3">
+    <img src="../Images/jewelry-upscaled.png" alt="" />
+
+    <div class="banner-text3">
+      <h1>Jewelries</h1>
+      <a class="shop-btn" href="">Shop Now</a>
+    </div>
+  </div>
+
+  <!-- Jewelries End -->
+
+
+  <!-- Accessories Start -->
+
+  <div class="box-4">
+    <img src="../Images/acc-1.jpg" alt="" />
+
+    <div class="banner-text4">
+      <h1>Accessories</h1>
+      <a class="shop-btn" href="">Shop Now</a>
+    </div>
+  </div>
+  <!-- Accessories End -->
+
+
+  <!-- categories Start -->
+
+  <div class="categories-wrapper p-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="categories-text">
+            <h2>Traditional Bangladeshi Girls Clothing and Accessories</h2>
+
+            <p>
+              Farhana’s Boutiques is a brand in Canada in a big way. But this
+              name has a different aspect too, other than being known as a
+              fashion clothing brand for women. Here in India, we worship
+              “Farhana’s Boutiques” as an avatar of Lord Vishnu and
+              righteously this name has brought in good fortunes and bestowed
+              upon us, prosperity that we always yearn.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="categories-title">
+        <h2>Categories</h2>
+      </div>
+
+      <div class="row box-wrapper">
+        <div class="container ">
+
+          <div class="category-slider">
+            <div class="slider">
+              <div class="mx-3">
+                <div class="border-0 rounded-0">
+                  <a href="#"> <img src="../Images/saree1.png" alt=""></a>
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75 mt-3">
+                      <a class="text-dark fw-bold">Saree</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mx-3">
+                <div class="border-0 rounded-0">
+                  <a href=""> <img src="../Images/salwar-kameez.png" alt=""></a>
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75 mt-3">
+                      <a class="text-dark fw-bold">SalwarKamizes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mx-3">
+                <div class="border-0 rounded-0">
+                  <a href=""> <img src="../Images/jewelry-upscaled.png" alt=""></a>
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75 mt-3">
+                      <a class="text-dark fw-bold">Jewelries</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mx-3">
+                <div class="border-0 rounded-0">
+                  <a href=""> <img src="../Images/acessory.png" alt=""></a>
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75 mt-3">
+                      <a class="text-dark fw-bold">Accessories</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mx-3">
+                <div class="border-0 rounded-0">
+                  <a href=""><img src="../Images/acc-2.jpg" alt=""></a>
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75 mt-3">
+                      <a class="text-dark fw-bold">Others</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- categories End -->
+
+
+  <!-- contact Start -->
+
+  <div class="contact-wrapper mt-5 my-5">
+    <div class="container back-image">
+      <div class="row">
+        <div class="col-md-12 contact-header">
+          <h2>Get in Touch with Us</h2>
+        </div>
+
+        <div class="row">
+          <form action="">
+
+
+            <div class="col-md-12 contact-body p-5">
+              <div class="mb-5">
+                <input type="text" placeholder="Full Name" />
+              </div>
+
+              <div class="mb-5">
+                <input type="email" placeholder="Email Address" />
+              </div>
+
+              <div class="mb-5">
+                <textarea placeholder="Your Message" name="" id="" cols="50" rows="4"></textarea>
+              </div>
+
+              <a class="btn contact-btn" href="">Submit</a>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- contact End -->
+
+
+
+  <!-- footer Start -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="row footer-wrapper">
+          <div class="col-lg-2 col-sm-6">
+            <div class="footer-logo">
+              <img width="150px" src="../Images/for-bottom.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <div class="box">
+              <h4>Contact</h4>
+              <a href="">
+                <i class="phone fa-solid fa-phone-volume"></i> 01851-828382</a>
+              <a href=""><i class="email fa-solid fa-envelope"></i> info@gmail.com</a>
+              <div class="footer-icon">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm -6">
+            <div class="box">
+              <h4>Designer Wear</h4>
+              <a href="">Sarees</a>
+              <a href="">Salwar Kameez</a>
+              <a href="">Jewelries</a>
+              <a href="">Accessories</a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <div class="box footer-contact">
+              <h4>About Us</h4>
+              <a href="">Contact With Us</a>
+              <a href="">Blog</a>
+              <a href="">Web Stories</a>
+              <a href="">Buying Guide</a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <div class="box">
+              <h4>Policies</h4>
+              <a href="">Terms & Conditions</a>
+              <a href="">Shipping</a>
+              <a href="">Returns</a>
+              <a href="">Privacy Policy</a>
+              <a href="">FAQ's</a>
+              <a href="">Customize Changes</a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <div class="box">
+              <h4>Other</h4>
+              <a href="">Login</a>
+              <a href="">Shipping Bag</a>
+              <a href="">Wish List</a>
+              <a href="">Order History</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr" />
+
+    <div class="row">
+      <div class="col-md-12 rights">
+        <p>@Copyright All Rights Reserve By Farhana's Boutiques</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer End -->
+
+  <script>
+    let toggle = document.getElementsByClassName("toggle_bar");
+
+    function toggle_bar() {
+      let element = document.querySelector(".toggle");
+      element.classList.toggle("show");
+
+      let element2 = document.querySelector(".bar");
+      element2.classList.toggle("bar2");
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- ___________ Slick Slider ______________ -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script>
+
+    $('.slider').slick({
+      centerMode: true,
+      dots: true,
+      autoplay: true,
+      centerPadding: '60px',
+      slidesToShow: 4,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          Infinity: true,
+          slidesToShow: 1
+        },
+      }]
+    });
+
+  </script>
+
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 1500,
+  });
+</script> -->
+
+</body>
+
+</html>
