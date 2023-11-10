@@ -1,2 +1,1 @@
-# Farhanas-Boutique
-Farhana Boutique
+Farhanas-Boutique-Frontend
